@@ -1,0 +1,12 @@
+export * from '../../../../../node_modules/react-native-af-video-player/components/PlayButton'
+export * from '../../../../../node_modules/react-native-af-video-player/components/Controls'
+export * from '../../../../../node_modules/react-native-af-video-player/components/ControlBar'
+export * from '../../../../../node_modules/react-native-af-video-player/components/Scrubber'
+export * from '../../../../../node_modules/react-native-af-video-player/components/Time'
+export * from '../../../../../node_modules/react-native-af-video-player/components/Loading'
+export * from '../../../../../node_modules/react-native-af-video-player/components/TopBar'
+export * from '../../../../../node_modules/react-native-af-video-player/components/ToggleIcon'
+export * from '../../../../../node_modules/react-native-af-video-player/components/ProgressBar'
+export * from '../../../../../node_modules/react-native-af-video-player/components/VideoPlayer'
+
+export { default as Video } from './VideoScrollHandler'

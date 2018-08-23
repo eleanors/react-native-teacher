@@ -1,0 +1,66 @@
+{
+  "name": "QXTeacher",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "GetuiConfigure": "node node_modules/react-native-getui/GetuiConfiguration.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.20.1",
+    "react": "16.0.0",
+    "react-native": "0.50.4",
+    "react-native-af-video-player": "0.1.7",
+    "react-native-audio": "^4.0.0",
+    "react-native-autoheight-webview": "https://github.com/heaton0308/react-native-autoheight-webview.git",
+    "react-native-button": "^2.1.0",
+    "react-native-cached-image": "^1.4.3",
+    "react-native-code-push": "^5.2.1",
+    "react-native-device-info": "^0.13.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-getui": "https://gitee.com/309357963/react-native-getui.git",
+    "react-native-htmlview": "^0.12.1",
+    "react-native-image-view": "https://github.com/hackpar/react-native-image-view",
+    "react-native-linear-gradient": "^2.3.0",
+    "react-native-message-bar": "^2.0.7",
+    "react-native-native-video-player": "https://gitee.com/309357963/react-native-native-video-player.git",
+    "react-native-orientation": "^3.1.3",
+    "react-native-photo-view": "https://gitee.com/309357963/react-native-photo-view.git",
+    "react-native-picker": "^4.3.2",
+    "react-native-qqsdk": "^0.8.1",
+    "react-native-root-modal": "^3.0.0",
+    "react-native-router-flux": "4.0.0-beta.26",
+    "react-native-scalable-image": "^0.4.0",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-simple-gauge": "^0.1.7",
+    "react-native-slider": "^0.11.0",
+    "react-native-sound": "^0.10.9",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-storage": "^0.2.2",
+    "react-native-syan-image-picker": "^0.1.6",
+    "react-native-tableview": "^1.7.0",
+    "react-native-ultimate-listview": "^3.3.0",
+    "react-native-video": "^2.0.0",
+    "react-native-wechat": "^1.9.9",
+    "react-navigation": "^1.0.0-beta.21",
+    "rmc-date-picker": "^6.0.6",
+    "teaset": "^0.4.9",
+    "whatwg-fetch-timeout": "^2.0.2-timeout"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": ["./font"]
+  },
+  "qq_app_id": "1105991711"
+}

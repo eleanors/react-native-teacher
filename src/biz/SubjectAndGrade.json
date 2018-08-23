@@ -1,0 +1,72 @@
+[
+  {
+    "gradeId": 1,
+    "gradeName": "小学",
+    "subjects": [
+      {
+        "subjectId": 1,
+        "subjectName": "数学"
+      },
+      {
+        "subjectId": 2,
+        "subjectName": "语文"
+      },
+      {
+        "subjectId": 3,
+        "subjectName": "英语"
+      }
+    ]
+  },
+  {
+    "gradeId": 2,
+    "gradeName": "初中",
+    "subjects": [
+      {
+        "subjectId": 1,
+        "subjectName": "数学"
+      },
+      {
+        "subjectId": 2,
+        "subjectName": "语文"
+      },
+      {
+        "subjectId": 3,
+        "subjectName": "英语"
+      },
+      {
+        "subjectId": 4,
+        "subjectName": "物理"
+      },
+      {
+        "subjectId": 5,
+        "subjectName": "化学"
+      }
+    ]
+  },
+  {
+    "gradeId": 3,
+    "gradeName": "高中",
+    "subjects": [
+      {
+        "subjectId": 1,
+        "subjectName": "数学"
+      },
+      {
+        "subjectId": 2,
+        "subjectName": "语文"
+      },
+      {
+        "subjectId": 3,
+        "subjectName": "英语"
+      },
+      {
+        "subjectId": 4,
+        "subjectName": "物理"
+      },
+      {
+        "subjectId": 5,
+        "subjectName": "化学"
+      }
+    ]
+  }
+]

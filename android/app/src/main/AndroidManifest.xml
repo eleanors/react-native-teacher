@@ -1,0 +1,78 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qxcloud.teacher"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="com.qxcloud.teacher.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+    <activity
+            android:name="com.qxcloud.teacher.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:resizeableActivity="true"
+            android:windowSoftInputMode="adjustResize"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="YHrRYCs5NO6OBSVGaa2YU3" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="7B0BhvhQS692crOzvqInI8" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="SOSH9enSJ7AjjC7aElEn84" />
+
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".BoardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PictureTexture.AddWatermarkActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.qxcloud.imageprocess.activity.newCamera.NewTackPhotoActivity"
+                  android:screenOrientation="landscape"
+        />
+
+        <activity android:name="com.qxcloud.imageprocess.activity.CropImgActivity"
+                  android:screenOrientation="landscape"
+        />
+
+    </application>
+
+</manifest>

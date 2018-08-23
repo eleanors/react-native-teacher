@@ -1,0 +1,6 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
+    <string name="app_name">秦学云课堂教师</string>
+    <string name="graffiti_enter">确定</string>
+    <string name="graffiti_cancel">取消</string>
+</resources>
